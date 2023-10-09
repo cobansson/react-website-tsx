@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #262630;
+}
+
+.footer {
+  padding: 1.3em 2em;
+  text-align: center;
+  background-color: #1b1c27;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  margin: 0;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #1b1c27;
+}
+
+.react-logo-and-name {
+  display: flex;
+  align-items: center;
+  color: #61dbfb;
+}
+
+nav img {
+  width: 40px;
+  margin-right: 0.4em;
+}
+
+nav h1 {
+  font-size: 1.4rem;
+}
+
+.tsx-project {
+  color: aliceblue;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 3em;
+  padding-top: 2em;
+  height: 100%;
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  color: aliceblue;
+}
+
+.main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5em 0 0 0;
+  font-size: 1.2rem;
+  color: #61dbfb;
+}
+
+.react-logo,
+.js-logo {
+  font-size: 2rem;
+}
+
+.react-logo {
+  color: #61dbfb;
+  animation-duration: 8s;
+}
+
+.js-logo {
+  color: #F0DB4F;
+}
